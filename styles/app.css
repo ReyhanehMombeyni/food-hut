@@ -326,3 +326,84 @@ body {
     display: flex;
     gap: 27px;
 }
+
+
+/* Footer */
+footer {
+    margin-bottom: 90px;
+    margin-top: 76px;
+}
+
+.content-footer {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+.content-footer h4 {
+    color: #F54748;
+    font-size: 21px;
+    font-weight: 600;
+}
+.content-footer li {
+    padding: 12px 0 12px 0;
+    font-size: 14px;
+}
+
+.content-footer .foodhut {
+    width: 30%;
+}
+.content-footer .foodhut h3 {
+    color: #F54748;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.content-footer .foodhut p {
+    padding: 10px 0 20px 0;
+    max-width: 370px;
+    font-size: 14px;
+}
+
+.content-footer .foodhut .social-media {
+    display: flex;
+    gap: 30px;
+}
+
+.content-footer .about-us {
+    width: 20%;
+}
+
+.content-footer .company {
+    width: 20%;
+}
+
+.content-footer .get-in-touch {
+   width: 30%;
+}
+
+.content-footer .get-in-touch p {
+    padding: 32px 0 24px 0;
+    max-width: 380px;
+}
+
+.content-footer .get-in-touch .email-box {
+    display: flex;
+    gap: 15px;
+}
+
+.content-footer .get-in-touch .email-box input {
+    outline: none;
+    border: none;
+    border-radius: 38px;
+    background-color: #252525;
+}
+.content-footer .get-in-touch .email-box input::placeholder {
+    padding-left: 24px;
+    color: rgba(255, 255, 255, 10%);
+}
+
+.copy-right {
+    padding: 90px 0 33px 0;
+    text-align: center;
+    font-size: 14px;
+}
