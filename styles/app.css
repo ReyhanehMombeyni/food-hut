@@ -294,3 +294,35 @@ body {
     color: #0D0D0D;
     border: none;
 }
+
+/* Mobile App */
+
+.mobile-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 105px;
+    padding-top: 120px;
+}
+.mobile-app .right-side, .mobile-app .left-side {
+    width: 100%;
+}
+
+.mobile-app .right-side img {
+    width: 100%;
+}
+
+.mobile-app .left-side h1 {
+    font-size: 48px;
+    line-height: 67px;
+    max-width: 643px;
+}
+
+.mobile-app .left-side p {
+    padding: 47px 170px 42px 0;
+}
+
+.mobile-app .left-side .app-store {
+    display: flex;
+    gap: 27px;
+}
