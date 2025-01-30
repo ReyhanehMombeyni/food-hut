@@ -1,117 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Hut Ordering Platform</title>
-    <link rel="stylesheet" href="./styles/app.css">
-    <link rel="stylesheet" href="./styles/custom.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-</head>
-<body class="container">
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/custom.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body class="container">
     <header>
-        <nav class="navbar">
-            <img src="./images/Logo.svg" alt="Logo">
-            <ul>
-                <li><a href="#">Today special offers</a></li>
-                <li><a href="#">Why FoodHut</a></li>
-                <li><a href="#">Our Menu</a></li>
-                <li><a href="#">Our Popular food</a></li>
-            </ul>
+      <nav class="navbar">
+        <img src="./images/Logo.svg" alt="Logo" />
+        <ul>
+          <li><a href="#">Today special offers</a></li>
+          <li><a href="#">Why FoodHut</a></li>
+          <li><a href="#">Our Menu</a></li>
+          <li><a href="#">Our Popular food</a></li>
+        </ul>
+        <button>Download App</button>
+      </nav>
+      <div class="header-slide">
+        <div class="left-side">
+          <img
+            class="trust-image"
+            src="./images/people trust us.svg"
+            alt="People Trust Us"
+          />
+          <h1>
+            We're <span class="red-color">Serious</span> For
+            <span class="red-color">Food</span> &
+            <span class="yellow-color">Delivery</span>.
+          </h1>
+          <img
+            class="line-header"
+            src="./images/line header.svg"
+            alt="Line Header"
+          />
+          <p>
+            Best cooks and best delivery guys all at your service. Hot tasty
+            food will reach you in 60 minutes.
+          </p>
+          <div class="search-box">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search food" />
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="button-box">
             <button>Download App</button>
-        </nav>
-        <div class="header-slide">
-            <div class="left-side">
-                <img class="trust-image" src="./images/people trust us.svg" alt="People Trust Us">
-                <h1>We're <span class="red-color">Serious</span> For <span class="red-color">Food</span> & <span class="yellow-color">Delivery</span>.</h1>
-                <img class="line-header" src="./images/line header.svg" alt="Line Header">
-                <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
-                <div class="search-box">
-                    <i class="fa fa-search"></i>
-                    <input type="text" placeholder="Search food"/>
-                    <i class="fa fa-search"></i>
-                </div>
-                <div class="button-box">
-                    <button>Download App</button>
-                    <div class="watch-video">
-                        <img src="./images/watch video.svg" alt="Watch video">
-                        <a href="#">Watch Video</a>
-                    </div>
-                </div>
+            <div class="watch-video">
+              <img src="./images/watch video.svg" alt="Watch video" />
+              <a href="#">Watch Video</a>
             </div>
-            <div class="right-side">
-                <img src="./images/girl-head.svg" alt="Girl Header">
-            </div>
+          </div>
         </div>
+        <div class="right-side">
+          <img src="./images/girl-head.svg" alt="Girl Header" />
+        </div>
+      </div>
     </header>
     <main>
-        <section class="special-offers">
-            <h2>Today <span class="red-color">special</span> offers</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <div class="items">
-                <div class="item-special-offers">
-                    <img src="./images/kebab img.svg" class="item-img" alt="kebab image">
-                    <div class="content-item-special-offers">
-                        <div class="item-score">
-                            <img src="./images/kebab user.svg" alt="kebab user">
-                            <div>
-                                <i class="fa fa-star"></i>
-                                <span>(4.5)</span>
-                            </div>
-                        </div>
-                        <h3>kebab</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <button>Order Now</button>
-                    </div>
+      <section class="special-offers">
+        <h2>Today <span class="red-color">special</span> offers</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </p>
+        <div class="items">
+          <div class="item-special-offers">
+            <img
+              src="./images/kebab img.svg"
+              class="item-img"
+              alt="kebab image"
+            />
+            <div class="content-item-special-offers">
+              <div class="item-score">
+                <img src="./images/kebab user.svg" alt="kebab user" />
+                <div>
+                  <i class="fa fa-star"></i>
+                  <span>(4.5)</span>
                 </div>
-                <div class="item-special-offers">
-                    <img src="./images/chicken tikka img.svg" class="item-img" alt="chicken tikka image">
-                    <div class="content-item-special-offers">
-                        <div class="item-score">
-                            <img src="./images/kebab user.svg" alt="kebab user">
-                            <div>
-                                <i class="fa fa-star"></i>
-                                <span>(4.8)</span>
-                            </div>
-                        </div>
-                        <h3>Chicken Tikka</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-                <div class="item-special-offers">
-                    <img src="./images/desi chowmein img.svg" class="item-img" alt="desi chowmein image">
-                    <div class="content-item-special-offers">
-                        <div class="item-score">
-                            <img src="./images/kebab user.svg" alt="kebab user">
-                            <div>
-                                <i class="fa fa-star"></i>
-                                <span>(4.2)</span>
-                            </div>
-                        </div>
-                        <h3>Desi Chowmein</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-                <div class="item-special-offers">
-                    <img src="./images/chicken chargha img.svg" class="item-img" alt="chicken chargha image">
-                    <div class="content-item-special-offers">
-                        <div class="item-score">
-                            <img src="./images/kebab user.svg" alt="kebab user">
-                            <div>
-                                <i class="fa fa-star"></i>
-                                <span>(5.0)</span>
-                            </div>
-                        </div>
-                        <h3>Chicken Chargha</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
+              </div>
+              <h3>kebab</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button>Order Now</button>
             </div>
-        </section>
+          </div>
+          <div class="item-special-offers">
+            <img
+              src="./images/chicken tikka img.svg"
+              class="item-img"
+              alt="chicken tikka image"
+            />
+            <div class="content-item-special-offers">
+              <div class="item-score">
+                <img src="./images/kebab user.svg" alt="kebab user" />
+                <div>
+                  <i class="fa fa-star"></i>
+                  <span>(4.8)</span>
+                </div>
+              </div>
+              <h3>Chicken Tikka</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button>Order Now</button>
+            </div>
+          </div>
+          <div class="item-special-offers">
+            <img
+              src="./images/desi chowmein img.svg"
+              class="item-img"
+              alt="desi chowmein image"
+            />
+            <div class="content-item-special-offers">
+              <div class="item-score">
+                <img src="./images/kebab user.svg" alt="kebab user" />
+                <div>
+                  <i class="fa fa-star"></i>
+                  <span>(4.2)</span>
+                </div>
+              </div>
+              <h3>Desi Chowmein</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button>Order Now</button>
+            </div>
+          </div>
+          <div class="item-special-offers">
+            <img
+              src="./images/chicken chargha img.svg"
+              class="item-img"
+              alt="chicken chargha image"
+            />
+            <div class="content-item-special-offers">
+              <div class="item-score">
+                <img src="./images/kebab user.svg" alt="kebab user" />
+                <div>
+                  <i class="fa fa-star"></i>
+                  <span>(5.0)</span>
+                </div>
+              </div>
+              <h3>Chicken Chargha</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="left-side">
+          <img
+            src="./images/chef multiple service.svg"
+            alt="chef multiple service"
+          />
+        </div>
+        <div class="right-side">
+          <h2>
+            We are <span class="red-color">more</span> than
+            <span class="yellow-color">multiple</span> service
+          </h2>
+          <p>
+            This is a type of resturent which typically serves food and drink,
+            in addition to light refreshments such as baked goods or snacks. The
+            term comes frome the rench word meaning food
+          </p>
+          <div class="multiple-services">
+            <ul>
+                <li>
+                  <img src="./images/service1.svg" alt="Online Order" />
+                  <span>Online Order</span>
+                </li>
+                <li>
+                  <img src="./images/service2.svg" alt="Pre-Reservation" />
+                  <span>Pre-Reservation</span>
+                </li>
+                <li>
+                  <img src="./images/service3.svg" alt="Super Chef" />
+                  <span>Super Chef</span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="./images/service4.svg" alt="24/7 Service" />
+                  <span>24/7 Service</span>
+                </li>
+                <li>
+                  <img src="./images/service5.svg" alt="Oragonized Foodhut Place" />
+                  <span>Oragonized Foodhut Place</span>
+                </li>
+                <li>
+                  <img src="./images/service6.svg" alt="Clean Kitchen" />
+                  <span>Clean Kitchen</span>
+                </li>
+              </ul>
+          </div>
+          <button>About Us</button>
+        </div>
+      </section>
+
     </main>
-</body>
+  </body>
 </html>

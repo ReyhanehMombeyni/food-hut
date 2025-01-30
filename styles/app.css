@@ -202,3 +202,61 @@ body {
 .content-item-special-offers button {
     margin-bottom: -15px;
 }
+
+
+/* Services */
+.services {
+    display: flex;
+    gap: 70px;
+}
+
+.services .left-side {
+    width: 100%;
+}
+.services .left-side img {
+    width: 100%;
+}
+
+.services .right-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5rem 0 5rem 0;
+}
+
+.services .right-side h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.35px;
+    padding-bottom: 21px;
+    max-width: 452px;
+}
+
+.services .right-side p {
+    max-width: 690px;
+    font-size: 18px;
+    line-height: 24.16px;
+}
+
+.services .right-side .multiple-services {
+    display: flex;
+    gap: 90px;
+}
+
+.services .right-side .multiple-services li {
+    padding-bottom: 30px;
+}
+
+.services .right-side .multiple-services img {
+    width: 20px;
+    height: 20px;
+}
+
+.services .right-side .multiple-services span {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+
