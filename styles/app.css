@@ -160,11 +160,11 @@ body {
     /* background-color: #fff; */
 }
 
-.item-special-offers .item-img {
+.item .item-img {
     margin-bottom: -130px;
 }
 
-.content-item-special-offers {
+.content-item {
     background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
     border-radius: 20px;
     display: flex;
@@ -187,19 +187,19 @@ body {
     color: #FDCE77;
 }
 
-.content-item-special-offers h3 {
+.content-item h3 {
     font-size: 21px;
     font-weight: 600;
     line-height: 33.22px;
     color: #F54748;
 }
 
-.content-item-special-offers p {
+.content-item p {
     padding: 16px 0 57px 0;
     font-size: 12px;
 }
 
-.content-item-special-offers button {
+.content-item button {
     margin-bottom: -15px;
 }
 
@@ -260,3 +260,37 @@ body {
 }
 
 
+/* Lovely Menu */
+.lovely-menu {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lovely-menu h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    max-width: 650px;
+}
+
+.lovely-menu .menu {
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.lovely-menu .menu li {
+    padding: 10px 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+}
+.lovely-menu .menu li:first-child {
+    background-color: #F54748;
+    color: #0D0D0D;
+    border: none;
+}
