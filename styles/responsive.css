@@ -39,7 +39,11 @@
         width: 100%;
     }
 
-    footer {
-        
+    footer .content-footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .content-footer .foodhut, .content-footer .middle-footer, .content-footer .get-in-touch {
+        width: 100%;
     }
 }
