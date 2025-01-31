@@ -16,10 +16,10 @@
         gap: 0px;
     }
 
-    /* .special-offers .items {
-        flex-wrap: wrap;
-        overflow: hidden;
-    } */
+    .items {
+        overflow-y: scroll;
+        width: 100%;
+    }
 
     .services, .services .multiple-services {
         flex-direction: column;
@@ -27,5 +27,10 @@
     }
     .services .multiple-services {
         padding-top: 80px;
+    }
+
+    .lovely-menu .menu {
+        overflow-x: scroll;
+        width: 100%;
     }
 }
