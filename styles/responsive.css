@@ -13,6 +13,19 @@
 
     .header-slide {
         flex-direction: column-reverse;
-        gap: 0;
+        gap: 0px;
+    }
+
+    /* .special-offers .items {
+        flex-wrap: wrap;
+        overflow: hidden;
+    } */
+
+    .services, .services .multiple-services {
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .services .multiple-services {
+        padding-top: 80px;
     }
 }
