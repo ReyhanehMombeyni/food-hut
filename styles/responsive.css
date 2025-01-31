@@ -25,12 +25,17 @@
         flex-direction: column;
         gap: 0px !important;
     }
-    .services .multiple-services {
-        padding-top: 80px;
-    }
 
     .lovely-menu .menu {
         overflow-x: scroll;
+        width: 100%;
+    }
+
+    .mobile-app {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .mobile-app .left-side p {
         width: 100%;
     }
 }
