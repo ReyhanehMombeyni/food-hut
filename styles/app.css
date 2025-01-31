@@ -358,7 +358,7 @@ footer {
 }
 
 .content-footer .foodhut {
-    width: 30%;
+    width: 35%;
 }
 .content-footer .foodhut h3 {
     color: #F54748;
@@ -377,16 +377,14 @@ footer {
     gap: 30px;
 }
 
-.content-footer .about-us {
-    width: 20%;
-}
-
-.content-footer .company {
-    width: 20%;
+.content-footer .middle-footer {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content-footer .get-in-touch {
-   width: 30%;
+   width: 35%;
 }
 
 .content-footer .get-in-touch p {
